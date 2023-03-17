@@ -1,0 +1,17 @@
+server:
+  port: 8090
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springsecurity?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: xu.123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
+mybatis-plus:
+  configuration:
+    # 日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
